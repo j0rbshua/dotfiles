@@ -60,9 +60,54 @@
     )
 ))
 
+(defwidget jbnotifications_center [] (box
+    :valign "FILL"
+    :vexpand true
+    :halign "END"
+    :class "notification-center"
+    :orientation "v"
+    :space-evenly false
+    (box
+        :space-evenly false
+        :class "title"
+        (label :text "Notifications")
+        (box :hexpand true)
+        (button
+            :onclick "${EWW_CONFIG_DIR}/scripts/notifications clear"
+            (label :text "Clear ")))
+    (scroll
+        :class "notifications-list"
+        :hscroll false :vscroll true
+        :vexpand true
+        (box
+            :orientation "v"
+            :space-evenly false
+            (label :text {notifications} :visible false)
+            (box
+                :visible {arraylength(notifications.notifications) == 0}
+                :space-evenly false
+                :orientation "v"
+                :valign "center"
+                :halign "center"
+                :vexpand true
+                :class "placeholder"
+                (label
+                    :class "icon"
+                    :text "󰂚")
+                (label
+                    :text "Nothing here"))
+            (for n in {notifications.notifications}
+                (notification 
+                    :onclick "close"
+                    :notification n)
+            )
+        )
+    )))
+
 (defwidget quicksettings [valign halign] (box
     :valign valign
     :halign halign
+    :vexpand "true"
     :class "quick-settings"
     :orientation "v"
     :space-evenly false
@@ -73,7 +118,5 @@
         (quick_toggles_grid)
         (syslevels)
     )
-    (label :text media_positions :visible false) ;so it is active
-    (for player in {media.players}
-        (media_player :player player ))
+    (jbnotifications_center)
 ))

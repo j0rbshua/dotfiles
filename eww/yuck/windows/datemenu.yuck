@@ -34,3 +34,6 @@
              (weather :place place)))
     ;; (box :class "wallpaper module")
 ))
+
+
+;;(defwidget datemenu [valign halign] (box

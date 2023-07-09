@@ -1,4 +1,5 @@
 (include "./yuck/windows/desktop.yuck")
+(include "./yuck/windows/desktop2.yuck")
 (include "./yuck/windows/notifications.yuck")
 (include "./yuck/windows/osd.yuck")
 (include "./yuck/windows/powermenu.yuck")
@@ -9,3 +10,4 @@
 (include "./yuck/windows/noti_center.yuck")
 (include "./yuck/windows/media.yuck")
 (include "./yuck/windows/app_launcher.yuck")
+(include "./yuck/windows/powerview.yuck")

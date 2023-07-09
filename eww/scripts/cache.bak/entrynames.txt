@@ -1,0 +1,154 @@
+About Xfce
+Advanced Network Configuration
+Archive Manager
+Ark
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+Avahi Zeroconf Browser
+Azote
+Bitwarden
+Blizzard Battle.net
+Bluetooth
+Bluetooth Adapters
+Bluetooth Manager
+Bottles
+Bulk Rename
+CMake
+Calculator
+Calendar
+Characters
+Cheese
+Clocks
+Code - OSS
+Color Profile Viewer
+Configure EOS Update Notifier
+Console
+Contacts
+Discord
+Disk Usage Analyzer
+Disks
+Displays Settings
+Document Scanner
+Document Viewer
+Dolphin
+Electron 19
+Electron 21
+Electron 22
+Electron 24
+Electron 25
+Emoji Selector
+EndeavourOS Quickstart Installer
+EndeavourOS apps info
+EndeavourOS log tool
+Extension Manager
+Extensions
+File Manager Settings
+Files
+Firefox Web Browser
+Firewall
+Flatseal
+Font Manager
+Font Viewer
+Fonts
+Foot
+Foot Client
+Foot Server
+GNOME System Monitor
+GTK Settings
+God of War
+Gwenview
+Hardware Locality lstopo
+Help
+Heroic Games Launcher
+Icon Browser
+Icon picker
+Image Viewer
+Info Center
+KCalc
+KDE Connect
+KDE Connect Indicator
+KDE Connect SMS
+KDE Connect Settings
+KDE System Settings
+KMail
+KMail Import Wizard
+KMail Refresh Settings
+KTnef
+KWrite
+Kate
+Klipper
+Konsole
+Kvantum Manager
+LEGO® Star Wars™: The Skywalker Saga
+Latte
+Logs
+Lutris
+MBoxImporter
+Maps
+Meld
+Menu Editor
+Music
+NVIDIA X Server Settings
+Okular
+Open on connected device via KDE Connect
+OpenJDK Java 20 Console
+OpenJDK Java 20 Shell
+PIM Data Exporter
+Parental Controls
+Passwords and Keys
+Photos
+Proton Experimental
+ProtonUp-Qt
+PulseAudio Volume Control
+Qt Assistant
+Qt Designer
+Qt Linguist
+Qt QDBusViewer 
+Qt V4L2 test Utility
+Qt V4L2 video capture utility
+Qt5 Settings
+Qt6 Settings
+Reflector Simple
+Remmina
+Removable Drives and Media
+Rofi
+Rofi Theme Selector
+Rygel Preferences
+Ryujinx
+SC Controller
+SDL2 Gamepad Mapper
+STAR WARS Jedi: Survivor™
+Settings
+Sieve Editor
+Software
+Software Token
+Software Token (small)
+Spectacle
+Spotify (Launcher)
+Steam (Runtime)
+System Monitor
+System Settings
+Text Editor
+Thunar File Manager
+Thunderbird
+Transmission
+Transmission (Qt)
+Tweaks
+UXTerm
+UpdateInTerminal
+UserFeedback Console
+VLC media player
+Videos
+Vim
+Weather
+Web
+Welcome
+XTerm
+YAD settings
+Yuzu EA 
+idevicegui
+kitty
+nwg-panel Settings
+nwg-processes
+nwg-shell Settings
+yuzu

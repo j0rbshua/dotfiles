@@ -79,7 +79,7 @@ class Network extends GObject.Object{
             enabled: this._client.wireless_enabled,
             state: this._client.wireless_enabled ? 'on' : 'off',
             ssid: this._ap && NM.utils_ssid_to_utf8(
-                this._ap.get_ssid().get_data() ) || 'Unknown',
+                this._ap.get_ssid().get_data() ) || 'Wired',
             strength: this._client.wireless_enabled && mainConnection ? `${this._ap?.strength}%` : '󰂭' , 
             icon: ['󰤮', '󰤯', '󰤟', '󰤢', '󰤥', '󰤨'][Math.ceil(this._ap?.strength/20)]
         };
@@ -91,6 +91,7 @@ class Network extends GObject.Object{
 
         let wired  ={ 
             primary: primary_type === '802-3-ethernet',
+            state: this._client.wireless_enabled ? 'on' : 'off',
             icon: internet ? '󰛳' : '󰪎'
         }
 

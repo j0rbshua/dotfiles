@@ -29,7 +29,7 @@ function toggle {
 function get {
     echo "{
         \"state\": \"$(state)\",
-        \"icon\": \"$(icon)\"
+        \"icon\": \"󰓅\"
     }"
 }
 

@@ -3,18 +3,19 @@
 pkill eww
 pkill myshell
 eww daemon
- 
-# HDMI=$(hyprctl monitors -j | jq .[1].name)
-# if [[ $HDMI == '"HDMI-A-1"' ]]; then
-#     # open both monitor stuff
-# else
-#     # open main monitror stuff
-# fi
 
 eww open bar
 # eww open dock
-eww open desktop
+eww open desktop1
 eww open notifications_popup
 # eww inspector
+
+# start a bar for each monitor
+monitors=$(hyprctl monitors -j | jq '.[] | .id')
+
+for monitor in ${monitors}; do
+    eww open desktop${monitor}
+done
+
 
 $HOME/.config/eww/scripts/myshell/./myshell --eww --file

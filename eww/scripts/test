@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+monitors=$(hyprctl monitors -j | jq '.[] | .id')
+
+for monitor in ${monitors}; do
+    printf "eww open desktop${monitor}"
+done

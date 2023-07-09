@@ -22,8 +22,8 @@
 
 ; arrow_toggles
 (defwidget arrow_toggle_wifi [] (arrow_toggle
-    :state {network.wifi.state}
-    :icon {network.wifi.icon}
+    :state {network.wired.state}
+    :icon {network.wired.icon}
     :arrow_action "${EWW_CONFIG_DIR}/scripts/launcher network"
     :toggle_action "${EWW_CONFIG_DIR}/scripts/network toggle"))
 
@@ -66,8 +66,8 @@
     :toggle_action "${EWW_CONFIG_DIR}/scripts/launcher bluetooth"))
 
 (defwidget small_toggle_network [] (small_toggle
-    :state {network.wifi.state}
-    :icon {network.wifi.icon}
+    :state {network.wired.state}
+    :icon {network.wired.icon}
     :toggle_action "${EWW_CONFIG_DIR}/scripts/launcher network"))
 
 (defwidget small_toggle_power [] (small_toggle

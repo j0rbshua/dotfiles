@@ -2,12 +2,16 @@
     (button
         :class "button launcher"
         :onclick "${EWW_CONFIG_DIR}/scripts/launcher toggle_menu app_launcher"
-        (label :class "icon" :text "" :halign "center")
+        (label :class "icon" :text "󱓞" :halign "center")
     )
 ))
 
 (defwidget panel_workspaces [orientation] (box :class "button-bin"
-    (eventbox :class "button workspaces"
+    (eventbox 
+    :onscroll "echo {} | sed -e \"s/up/-1/g\" -e \"s/down/+1/g\" | xargs hyprctl dispatch workspace"
+    :onmiddleclick "scripts/toggle-powerview.sh &"
+    :onrightclick "scripts/toggle-powerview.sh &"
+    :class "button workspaces"
         (box
             :space-evenly false
             :orientation orientation

@@ -44,6 +44,6 @@
         (powerbutton :action "systemctl suspend"                             :icon "suspend" :label "Suspend")
         (powerbutton :action "systemctl reboot"                              :icon "reboot" :label "Restart")
         (powerbutton :action "loginctl kill-user $(whoami)"                  :icon "logout" :label "Log Out")
-        (powerbutton :action "shutdown now"                                  :icon "" :label "Shutdown")
+        (powerbutton :action "shutdown now"                                  :icon "shutdown" :label "Shutdown")
     )
 ))

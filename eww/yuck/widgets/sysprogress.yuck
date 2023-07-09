@@ -40,7 +40,7 @@
 
 (defwidget sysprogress_bat [] (sysprogress
     :css "cpu"
-    :tip "PS5 ${jbbattery}%"
+    :tip "PS5 ${jbbatteryst} ${jbbattery}%"
     :data {jbbattery}
     :icon "󪥈"))
 
